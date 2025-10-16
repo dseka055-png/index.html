@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judul Website Kamu</title>
+
+    <!-- Link ke file CSS (jika ada) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts (opsional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header atau Navbar -->
+    <header>
+        <nav>
+            <h1>Nama Website</h1>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bagian Utama -->
+    <main>
+        <!-- Beranda -->
+        <section id="beranda">
+            <h2>Selamat Datang di Website Kami</h2>
+            <p>Ini adalah deskripsi singkat website kamu.</p>
+        </section>
+
+        <!-- Tentang -->
+        <section id="tentang">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah tim profesional yang berfokus pada ...</p>
+        </section>
+
+        <!-- Layanan -->
+        <section id="layanan">
+            <h2>Layanan Kami</h2>
+            <ul>
+                <li>Layanan 1</li>
+                <li>Layanan 2</li>
+                <li>Layanan 3</li>
+            </ul>
+        </section>
+
+        <!-- Kontak -->
+        <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <form action="#" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nama Website. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <!-- Script JavaScript (jika ada) -->
+    <script src="script.js"></script>
+</body>
+</html>
